@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: fe60fdeb701608541bade2006597bdb6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: himo_L1
+    100002: himo_L2
+    100004: himo_L3
+    100006: himo_R1
+    100008: himo_R2
+    100010: himo_R3
+    100012: Parka
+    100014: Vprk_Armature
+    100016: Vprk_Chest
+    100018: Vprk_Hand_L
+    100020: Vprk_Hand_R
+    100022: Vprk_Hips
+    100024: Vprk_LowerArm_L
+    100026: Vprk_LowerArm_R
+    100028: Vprk_Neck
+    100030: Vprk_Shoulder_L
+    100032: Vprk_Shoulder_R
+    100034: Vprk_Spine
+    100036: Vprk_UpperArm_L
+    100038: Vprk_UpperArm_R
+    100040: Vprk_UpperLeg_L
+    100042: Vprk_UpperLeg_R
+    100044: //RootNode
+    400000: himo_L1
+    400002: himo_L2
+    400004: himo_L3
+    400006: himo_R1
+    400008: himo_R2
+    400010: himo_R3
+    400012: Parka
+    400014: Vprk_Armature
+    400016: Vprk_Chest
+    400018: Vprk_Hand_L
+    400020: Vprk_Hand_R
+    400022: Vprk_Hips
+    400024: Vprk_LowerArm_L
+    400026: Vprk_LowerArm_R
+    400028: Vprk_Neck
+    400030: Vprk_Shoulder_L
+    400032: Vprk_Shoulder_R
+    400034: Vprk_Spine
+    400036: Vprk_UpperArm_L
+    400038: Vprk_UpperArm_R
+    400040: Vprk_UpperLeg_L
+    400042: Vprk_UpperLeg_R
+    400044: //RootNode
+    2100000: Vroid_parka_mat
+    2300000: Parka
+    3300000: Parka
+    4300000: Parka
+    9500000: //RootNode
+    13700000: Parka
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vroid_parka_mat
+    second: {fileID: 2100000, guid: 87b670843e6fc6440953ffd9764606d1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: Vroid_Parka(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Armature
+      parentName: Vroid_Parka(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Hips
+      parentName: Vprk_Armature
+      position: {x: -0.000000059746725, y: 0.93300956, z: 0.026987586}
+      rotation: {x: -0.7071061, y: 0.7071061, z: 0.0010079105, w: 0.0010079105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Spine
+      parentName: Vprk_Hips
+      position: {x: -0.021735167, y: -1.2632141e-18, z: -4.440892e-18}
+      rotation: {x: 0.0000000017050011, y: 0.036568336, z: -0.000000046593883, w: 0.9993312}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Chest
+      parentName: Vprk_Spine
+      position: {x: -0.091691904, y: 1.2705493e-22, z: 1.0658141e-16}
+      rotation: {x: -7.6471474e-10, y: 0.016489193, z: 0.00000004637042, w: 0.99986404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Neck
+      parentName: Vprk_Chest
+      position: {x: -0.2258258, y: -8.2162193e-22, z: 1.5987211e-16}
+      rotation: {x: -2.4972742e-21, y: -0.08536195, z: -0.0000035988198, w: 0.99635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Shoulder_L
+      parentName: Vprk_Chest
+      position: {x: -0.19040258, y: 0.050527662, z: 0.007401577}
+      rotation: {x: -0.43620026, y: 0.5985728, z: 0.5556222, w: -0.3777882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_UpperArm_L
+      parentName: Vprk_Shoulder_L
+      position: {x: -0.050975792, y: 2.997602e-17, z: -1.4210854e-16}
+      rotation: {x: -0.00912049, y: 0.14664188, z: -0.00076295406, w: 0.9891473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_LowerArm_L
+      parentName: Vprk_UpperArm_L
+      position: {x: -0.24337247, y: 2.5535128e-17, z: 0}
+      rotation: {x: -0.00014590191, y: 0.0033813412, z: 0.037264835, w: 0.99929976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Hand_L
+      parentName: Vprk_LowerArm_L
+      position: {x: -0.1993587, y: 1.8207657e-16, z: 3.126388e-15}
+      rotation: {x: 0, y: -0, z: -0.02095246, w: 0.9997805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Shoulder_R
+      parentName: Vprk_Chest
+      position: {x: -0.19040376, y: -0.050527643, z: 0.007401459}
+      rotation: {x: -0.5556222, y: 0.3777882, z: -0.43620026, w: 0.5985728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_UpperArm_R
+      parentName: Vprk_Shoulder_R
+      position: {x: 0.05097647, y: 0.000000005836354, z: 0.0000018617116}
+      rotation: {x: -0.009120492, y: 0.14664207, z: -0.00076276046, w: 0.9891473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_LowerArm_R
+      parentName: Vprk_UpperArm_R
+      position: {x: 0.24337238, y: -0.0000000127987025, z: -5.156636e-11}
+      rotation: {x: -0.00014588979, y: 0.0033813857, z: 0.037264828, w: 0.9992997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_Hand_R
+      parentName: Vprk_LowerArm_R
+      position: {x: 0.1993585, y: 0.000000012348138, z: -4.2247164e-11}
+      rotation: {x: 0, y: -0, z: -0.02095246, w: 0.9997805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: himo_L1
+      parentName: Vprk_Chest
+      position: {x: -0.19626127, y: 0.03266135, z: -0.077770606}
+      rotation: {x: -0.028062975, y: 0.97582567, z: 0.0062305075, w: -0.21665175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: himo_L2
+      parentName: himo_L1
+      position: {x: -0.12963893, y: 4.718448e-18, z: -8.881784e-18}
+      rotation: {x: 0.009741101, y: -0.23331143, z: 0.01533655, w: 0.97223234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: himo_L3
+      parentName: himo_L2
+      position: {x: -0.09130987, y: -1.7763568e-17, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: himo_R1
+      parentName: Vprk_Chest
+      position: {x: -0.19625778, y: -0.032661367, z: -0.077770196}
+      rotation: {x: -0.006230515, y: 0.21665175, z: -0.028062977, w: 0.97582567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: himo_R2
+      parentName: himo_R1
+      position: {x: 0.12963605, y: -0.00000016668662, z: -0.000001400199}
+      rotation: {x: 0.009741101, y: -0.23331143, z: 0.01533655, w: 0.97223234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: himo_R3
+      parentName: himo_R2
+      position: {x: 0.091307044, y: -0.000000083443716, z: -0.0000005075147}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_UpperLeg_L
+      parentName: Vprk_Hips
+      position: {x: 0.12343454, y: 0.0728416, z: 0.0067592417}
+      rotation: {x: 0.010878296, y: 0.70702314, z: 0.70702314, w: -0.010878296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vprk_UpperLeg_R
+      parentName: Vprk_Hips
+      position: {x: 0.1234349, y: -0.072841555, z: 0.0067591984}
+      rotation: {x: -0.70705974, y: 0.00816033, z: 0.00816033, w: 0.70705974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Parka
+      parentName: Vroid_Parka(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

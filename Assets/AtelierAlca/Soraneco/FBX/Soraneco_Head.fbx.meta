@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 307cdac1d1647384c843529388772136
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AAH01_armature
+    100002: AAH01_Head
+    100004: Eye_L
+    100006: Eye_R
+    100008: EyeLVector
+    100010: EyeLVector 1
+    100012: Heir_B1
+    100014: Heir_B2
+    100016: Heir_B3
+    100018: Heir_B4
+    100020: Heir_B5
+    100022: Heir_FA1
+    100024: Heir_FA2
+    100026: Heir_FA3
+    100028: Heir_FB1
+    100030: Heir_FB2
+    100032: Heir_FB3
+    100034: Heir_FC1
+    100036: Heir_FC2
+    100038: Heir_FC3
+    100040: Heir_FC4
+    100042: Heir_FR1
+    100044: Heir_FR2
+    100046: Heir_L1
+    100048: Heir_L2
+    100050: Heir_L3
+    100052: Heir_L4
+    100054: Heir_LA1
+    100056: Heir_LA2
+    100058: Heir_LA3
+    100060: Heir_LA4
+    100062: Heir_LA5
+    100064: Heir_LB1
+    100066: Heir_LB2
+    100068: Heir_LB3
+    100070: Heir_LB4
+    100072: Heir_LB5
+    100074: Heir_LC1
+    100076: Heir_LC2
+    100078: Heir_LC3
+    100080: Heir_LC4
+    100082: Heir_LC5
+    100084: Heir_LC6
+    100086: Heir_R1
+    100088: Heir_R2
+    100090: Heir_R3
+    100092: Heir_R4
+    100094: Heir_RA1
+    100096: Heir_RA2
+    100098: Heir_RA3
+    100100: Heir_RA4
+    100102: Heir_RA5
+    100104: Heir_RB1
+    100106: Heir_RB2
+    100108: Heir_RB3
+    100110: Heir_RB4
+    100112: Heir_RB5
+    100114: //RootNode
+    100116: SoranecoFace
+    100118: SoranecoHeir
+    400000: AAH01_armature
+    400002: AAH01_Head
+    400004: Eye_L
+    400006: Eye_R
+    400008: EyeLVector
+    400010: EyeLVector 1
+    400012: Heir_B1
+    400014: Heir_B2
+    400016: Heir_B3
+    400018: Heir_B4
+    400020: Heir_B5
+    400022: Heir_FA1
+    400024: Heir_FA2
+    400026: Heir_FA3
+    400028: Heir_FB1
+    400030: Heir_FB2
+    400032: Heir_FB3
+    400034: Heir_FC1
+    400036: Heir_FC2
+    400038: Heir_FC3
+    400040: Heir_FC4
+    400042: Heir_FR1
+    400044: Heir_FR2
+    400046: Heir_L1
+    400048: Heir_L2
+    400050: Heir_L3
+    400052: Heir_L4
+    400054: Heir_LA1
+    400056: Heir_LA2
+    400058: Heir_LA3
+    400060: Heir_LA4
+    400062: Heir_LA5
+    400064: Heir_LB1
+    400066: Heir_LB2
+    400068: Heir_LB3
+    400070: Heir_LB4
+    400072: Heir_LB5
+    400074: Heir_LC1
+    400076: Heir_LC2
+    400078: Heir_LC3
+    400080: Heir_LC4
+    400082: Heir_LC5
+    400084: Heir_LC6
+    400086: Heir_R1
+    400088: Heir_R2
+    400090: Heir_R3
+    400092: Heir_R4
+    400094: Heir_RA1
+    400096: Heir_RA2
+    400098: Heir_RA3
+    400100: Heir_RA4
+    400102: Heir_RA5
+    400104: Heir_RB1
+    400106: Heir_RB2
+    400108: Heir_RB3
+    400110: Heir_RB4
+    400112: Heir_RB5
+    400114: //RootNode
+    400116: SoranecoFace
+    400118: SoranecoHeir
+    2100000: Soraneco_Heir
+    2100002: Soraneco_HeirStencil
+    2100004: Soraneco_Face
+    2100006: Soraneco_EX_mat
+    2100008: Soraneco_FaceStencil
+    4300000: SoranecoHeir
+    4300002: SoranecoFace
+    9500000: //RootNode
+    13700000: SoranecoFace
+    13700002: SoranecoHeir
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soraneco_EX_mat
+    second: {fileID: 2100000, guid: ae650a74a0ac2824996a6ca9ffcfa881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soraneco_Face
+    second: {fileID: 2100000, guid: 53c58583619dbcb46b8b61a6a7766815, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soraneco_FaceStencil
+    second: {fileID: 2100000, guid: 4a97ab1cf1cdbf7449a156bbe263f64a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soraneco_Heir
+    second: {fileID: 2100000, guid: a99bbdc6a7114494190f05e4844570ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soraneco_HeirStencil
+    second: {fileID: 2100000, guid: 0c24274d794cdca42a86164e6a1efc8f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

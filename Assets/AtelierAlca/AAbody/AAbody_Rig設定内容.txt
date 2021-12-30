@@ -1,0 +1,31 @@
+AABody Rig設定内容　　　　　　　　　　　　　　　　　2021/6/19
+
+
+本モデルは、素体のFBX時点では裸足で地面に接地した状態になっています。
+なので、Unity上で靴に合わせたつま先の角度や高さの調整を行っています。
+
+以下UnityでRig設定を行った数値です
+
+
+
+AABody.fbx
+
+Armature:Position Y +0.032
+Foot:Rotation Z +12
+Toes:Rotation Z -12
+
+
+
+AABody_sneakers.fbx
+
+Armature:Position Y +0.025
+Foot:Rotation Z +4
+Toes:Rotation Z -4
+
+
+
+AAbody_highheels
+
+Armature:Position Y +0.045
+Foot:Rotation Z +19
+Toes:Rotation Z -19

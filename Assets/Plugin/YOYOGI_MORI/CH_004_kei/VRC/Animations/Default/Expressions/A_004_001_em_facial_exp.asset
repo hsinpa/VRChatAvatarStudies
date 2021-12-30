@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: A_004_001_em_facial_exp
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Fist
+    icon: {fileID: 2800000, guid: 61036653da47c7142b4206c815443542, type: 3}
+    type: 102
+    parameter:
+      name: FacialExpressions
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Open
+    icon: {fileID: 2800000, guid: 8a8e6c2dd5579cf4e98fe5b720144f87, type: 3}
+    type: 102
+    parameter:
+      name: FacialExpressions
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Point
+    icon: {fileID: 2800000, guid: 69c240fb6a96f7d4ca6a2b9a9bc565b0, type: 3}
+    type: 102
+    parameter:
+      name: FacialExpressions
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Peace
+    icon: {fileID: 2800000, guid: 16f62afe3f01fcf49b8340b599071099, type: 3}
+    type: 102
+    parameter:
+      name: FacialExpressions
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Rocknroll
+    icon: {fileID: 2800000, guid: 234e1f058c61d554a83c4c247b5388d6, type: 3}
+    type: 102
+    parameter:
+      name: FacialExpressions
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Gun
+    icon: {fileID: 2800000, guid: 46d572de7ae122344a8d8fb1df01076d, type: 3}
+    type: 102
+    parameter:
+      name: FacialExpressions
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Thumbs Up
+    icon: {fileID: 2800000, guid: 596db601e7cc9c7448f95064dea271d8, type: 3}
+    type: 102
+    parameter:
+      name: FacialExpressions
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

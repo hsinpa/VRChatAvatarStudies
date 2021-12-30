@@ -1,0 +1,226 @@
+//English 英語
+,Basic, EN, Basic
+,Option, EN, Option
+,TargetObject, EN, TargetObject
+,Combine!, EN, Combine!
+,duplicate names shape, EN, Shapekeys with duplicate names
+,Shapekey settings, EN, Shapekey settings
+,combine shape, EN, Combine overlapping shapekeys
+,add shape, EN, Add a shape key with a different name
+,baked mesh setting, EN, The baked mesh object settings
+,baked mesh name, EN, Name of the mesh after baking
+,baked mesh file setting, EN, Baked mesh file Settings
+,Output Folder, EN, Output Folder
+,opt_foldersave, EN, Record output folder path
+,same name, EN, If the same file exists
+,overwrite save, EN, overwrite save
+,new save, EN, new save
+,Language, EN, Language
+,Mesh, EN, Mesh
+,Avatar, EN, Avatar
+,Assemble, EN, Assemble
+,Combine, EN, Combine
+,Clothing, EN, Clothing
+,Object, EN, Object
+,Objects, EN, Objects
+,DupAvatar, EN, Duplicate your avatar.
+,DupShift, EN, Shifting the spawn position when duplicating.
+,BoneWord, EN, Differential word specification for bone names.
+,HelpA1, EN, When the naming convention is "Avatar's Bone Name + Canned Sentence" or "Canned Sentence + Avatar's Bone Name", a canned sentence is specified here.
+,HelpA2, EN, e.g. 1) If the avatar side is Hips and the costume side is Hips_Wear, specify "_Wear".
+,HelpA3, EN, Example 2) If the costume is (seta)Hips, specify "(seta)".
+,HelpA4, EN, Even if the field is blank, it will be detected automatically.
+,HelpB1, EN, If the rotation value of Bourne is different between the avatar and the costume, we may duplicate the Mesh file to correct the difference. When this happens, you can specify where to save the file.
+
+,cOK, EN, OK
+,cCancel, EN, Cancel
+
+
+// 日本語
+,Basic, JP, 基本
+,Option, JP, 設定
+,TargetObject, JP, アバター又は衣装オブジェ
+,Combine!, JP, 合成
+,Shapekey settings, JP, シェイプキーの設定
+,duplicate names shape, JP, 名前が重複するシェイプキーの処理
+,combine shape, JP, 重複シェイプキーを合成する
+,add shape, JP, 連番別名でシェイプキーを追加する
+,baked mesh setting, JP, 合成したメッシュオブジェクトの設定
+,baked mesh name, JP, 合成した後のメッシュの名前
+,baked mesh file setting, JP, ベイクしたメッシュファイルの設定
+,Output Folder, JP, 出力フォルダ
+,opt_foldersave, JP, フォルダを記録
+,same name, JP, 同名のメッシュファイルが存在する場合
+,overwrite save, JP, 上書きで保存する
+,new save, JP, 連番別名で追加する
+,Language, JP, 言語
+,Mesh, JP, メッシュ
+,Avatar, JP, アバター
+,Assemble, JP, 着せ替え
+,Combine, JP, 合成
+,Clothing, JP, 衣服
+,Object, JP, オブジェクト
+,Objects, JP, オブジェクト
+,DupAvatar, JP, アバターを複製して着せ替えをする
+,DupShift, JP, 複製時にアバターのスポーン位置をずらす
+,BoneWord, JP, ボーン名の差分単語指定
+,HelpA1, JP, 衣装側ボーン名が、「アバター側ボーン名＋定型文」又は「定型文＋アバター側ボーン名」な命名規則のときにここに定型文を指定する。
+,HelpA2, JP, 例1) アバター側Hips で衣装側が Hips_Wear なら「_Wear」指定
+,HelpA3, JP, 例2)衣装側が (seta)Hips なら「(seta)」を指定
+,HelpA4, JP, ※空欄でも自動で判別してくれます
+,HelpB1, JP, ボーンのロール値がアバターと衣装で違う場合、その違いを修正したMeshファイルを複製することがあります。その際にどこに保存するかを指定します。
+
+,cOK, JP, 了解
+,cCancel, JP, キャンセル
+
+
+// 日本語2
+,Basic, JP2, Basic
+,Option, JP2, Option
+,TargetObject, JP2, TargetObject
+,Combine!, JP2, Combine!
+,Shapekey settings, JP2, Shapekeyの設定
+,duplicate names shape, JP2, 名前が重複するShapekeyの処理
+,combine shape, JP2, 重複Shapekeyを合成する
+,add shape, JP2, 連番別名でShapekeyを追加する
+,baked mesh setting, JP2, BakeしたMeshObjectの設定
+,baked mesh name, JP2, Bakeした後のMeshの名前
+,baked mesh file setting, JP2, BakeしたMeshファイルの設定
+,Output Folder, JP2, 出力フォルダ
+,opt_foldersave, JP2, フォルダを記録
+,same name, JP2, 同名のMeshファイルが存在する場合
+,overwrite save, JP2, 上書きで保存する
+,new save, JP2, 連番別名で追加する
+,Language, JP2, 言語
+,Mesh, JP2, Mesh
+,Avatar, JP2, Avatar
+,Assemble, JP2, Assemble
+,Combine, JP2, 合成
+,Clothing, JP2, 衣服
+,Object, JP2, Object
+,Objects, JP2, Objects
+,DupAvatar, JP2, アバターを複製して着せ替えをする
+,DupShift, JP2, 複製時にアバターのスポーン位置をずらす
+,BoneWord, JP2, Bone名の差分単語指定
+,HelpA1, JP2, 衣装側ボーン名が、「アバター側ボーン名＋定型文」又は「定型文＋アバター側ボーン名」な命名規則のときにここに定型文を指定する。
+,HelpA2, JP2, 例1) アバター側Hips で衣装側が Hips_Wear なら「_Wear」指定
+,HelpA3, JP2, 例2)衣装側が (seta)Hips なら「(seta)」を指定
+,HelpA4, JP2, ※空欄でも自動で判別してくれます
+,HelpB1, JP2, ボーンのロール値がアバターと衣装で違う場合、その違いを修正したMeshファイルを複製することがあります。その際にどこに保存するかを指定します。
+
+,cOK, JP2, OK
+,cCancel, JP2, Cancel
+
+
+// 中国語(K)簡体
+,Basic, CNK, 基本的
+,Option, CNK, 设定值
+,TargetObject, CNK, 要合成的对象
+,Combine!, CNK, 综合性
+,Shapekey settings, CNK, 形状键设置
+,duplicate names shape, CNK, 处理具有重复名称的形状键
+,combine shape, CNK, 合并重复的形状键
+,add shape, CNK, 添加带有序列号别名的形状键
+,baked mesh setting, CNK, 设置复合网格物体
+,baked mesh name, CNK, 合成后的网格名称
+,baked mesh file setting, CNK, 烘焙网格文件的设置
+,Output Folder, CNK, 输出文件夹
+,opt_foldersave, CNK, 记录输出文件夹的路径
+,same name, CNK, 存在同名的网格文件时
+,overwrite save, CNK, 覆盖保存
+,new save, CNK, 添加序列号别名
+,Language, CNK, 语言能力
+,Mesh, CNK, 网状
+,Avatar, CNK, 头像
+,Assemble, CNK, 组装
+,Combine, CNK, 结合
+,Clothing, CNK, 服装
+,Object, CNK, 对象
+,Objects, CNK, 对象
+,DupAvatar, CNK, 复制您的头像
+,DupShift, CNK, 复制时移动生成位置
+,BoneWord, CNK, 骨骼名称的差异词规范
+,HelpA1, CNK, 当命名约定为“头像的骨头名称+罐头句子”或“罐头的句子+头像的骨头名称”时，此处指定罐头句子。
+,HelpA2, CNK, 例如 1）如果化身一侧为臀部，服装一侧为臀部_磨损，则指定“ _磨损”。
+,HelpA3, CNK, 示例2）如果服装是（seta）臀部，则指定“（seta）”。
+,HelpA4, CNK, 即使该字段为空白，也会自动检测到。
+,HelpB1, CNK, 如果化身和服装之间的Bourne旋转值不同，我们可以复制“网格”文件来纠正差异。 发生这种情况时，您可以指定保存文件的位置。
+
+,cOK, CNK, 做
+,cCancel, CNK, 取消
+
+
+// 中国語(N)
+,Basic, CNN, 基本的
+,Option, CNN, 設定值
+,TargetObject, CNN, 頭像或服裝對象
+,Combine!, CNN, 綜合性
+,Shapekey settings, CNN, 形狀鍵設置
+,duplicate names shape, CNN, 處理具有重複名稱的形狀鍵
+,combine shape, CNN, 合併重複的形狀鍵
+,add shape, CNN, 添加帶有序列號別名的形狀鍵
+,baked mesh setting, CNN, 設置複合網格物體
+,baked mesh name, CNN, 合成後的網格名稱
+,baked mesh file setting, CNN, 烘焙網格文件的設置
+,Output Folder, CNN, 輸出文件夾
+,opt_foldersave, CNN, 記錄輸出文件夾的路徑
+,same name, CNN, 存在同名的網格文件時
+,overwrite save, CNN, 覆蓋保存
+,new save, CNN, 添加序列號別名
+,Language, CNN, 語言能力
+,Mesh, CNN, 網狀
+,Avatar, CNN, 頭像
+,Assemble, CNN, 組裝
+,Combine, CNN, 結合
+,Clothing, CNN, 服裝
+,Object, CNN, 對象
+,Objects, CNN, 對象
+,DupAvatar, CNN, 複製您的頭像
+,DupShift, CNN, 複製時移動生成位置
+,BoneWord, CNN, 骨骼名稱的差異詞規範
+,HelpA1, CNN, 當命名約定為“頭像的骨頭名稱+罐頭句子”或“罐頭的句子+頭像的骨頭名稱”時，此處指定罐頭句子。
+,HelpA2, CNN, 例如 1）如果化身一側為臀部，服裝一側為臀部_磨損，則指定“ _磨損”。
+,HelpA3, CNN, 示例2）如果服裝是（seta）臀部，則指定“（seta）”。
+,HelpA4, CNN, 即使該字段為空白，也會自動檢測到。
+,HelpB1, CNN, 如果化身和服裝之間的Bourne旋轉值不同，我們可以復制“網格”文件來糾正差異。 發生這種情況時，您可以指定保存文件的位置。
+
+,cOK, CNN, 做
+,cCancel, CNN, 取消
+
+
+// 韓国語
+,Basic, KR, 기본
+,Option, KR, 설정
+,TargetObject, KR, 아바타 또는 의상 오브제
+,Combine!, KR, 합성
+,Shapekey settings, KR, 모양 키 설정
+,duplicate names shape, KR, 이름이 중복 모양 키의 처리
+,combine shape, KR, 중복 모양 키 합성
+,add shape, KR, 연번 이름으로 모양 키 추가
+,baked mesh setting, KR, 합성 한 메쉬 객체의 설정
+,baked mesh name, KR, 합성 한 후 메시의 이름
+,baked mesh file setting, KR, 베이킹 메쉬 파일의 설정
+,Output Folder, KR, 출력 폴더
+,opt_foldersave, KR, 출력 폴더의 경로를 기록합니다.
+,same name, KR, 동명의 메쉬 파일이 존재하는 경우
+,overwrite save, KR, 덮어 쓰기로 저장
+,new save, KR, 연번 이름으로 추가
+,Language, KR, 언어
+,Mesh, KR, 메쉬
+,Avatar, KR, 화신
+,Assemble, KR, 모으다
+,Combine, KR, 결합시키다
+,Clothing, KR, 의류
+,Object, KR, 사물
+,Objects, KR, 사물
+,DupAvatar, KR, 아바타를 복제하십시오
+,DupShift, KR, 복제 할 때 스폰 위치 이동
+,BoneWord, KR, 뼈 이름에 대한 차동 단어 지정
+,HelpA1, KR, 명명 규칙이 "아바타의 뼈 이름 + 문장 통조림"또는 "문장 통조림 + 아바타의 뼈 이름"인 경우 여기에 통조림 문장이 지정됩니다.
+,HelpA2, KR, 예 : 1) 아바타 쪽이 Hips이고 의상 쪽이 Hips_Wear 인 경우 "_Wear"를 지정합니다.
+,HelpA3, KR, 예 2) 의상이 (seta) Hips 인 경우 "(seta)"를 지정합니다.
+,HelpA4, KR, 필드가 비어 있어도 자동으로 감지됩니다.
+,HelpB1, KR, Bourne의 회전 값이 아바타와 의상간에 다른 경우, 차이를 수정하기 위해 Mesh 파일을 복제 할 수 있습니다. 이 경우 파일을 저장할 위치를 지정할 수 있습니다.
+
+,cOK, KR, 예
+,cCancel, KR, 취소

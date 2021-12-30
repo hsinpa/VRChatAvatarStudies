@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: A_004_001_em_gimmicks
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Hold Facial Expressions
+    icon: {fileID: 2800000, guid: 68f4410839ba92f418d82883b6e0ec87, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: afcdc18c2f0d2c34fa28495fdbb15d47, type: 2}
+    subParameters: []
+    labels: []
+  - name: EyeControl
+    icon: {fileID: 2800000, guid: e8c2712f30f742f409399cf89fa99f69, type: 3}
+    type: 201
+    parameter:
+      name: EyeControl
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: EyesH
+    - name: EyesV
+    labels:
+    - name: Up
+      icon: {fileID: 0}
+    - name: Right
+      icon: {fileID: 0}
+    - name: Down
+      icon: {fileID: 0}
+    - name: Left
+      icon: {fileID: 0}
