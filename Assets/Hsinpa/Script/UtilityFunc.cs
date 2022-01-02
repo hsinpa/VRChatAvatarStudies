@@ -35,9 +35,19 @@ namespace Hsinpa.Utility {
         /// <param name="parent"></param>
         public static void ClearChildObject(Transform parent) {
             foreach (Transform t in parent) {
-				GameObject.Destroy(t.gameObject);
+				DeleteObject(t.gameObject);
             }
         }
+
+		public static void ClearChildObject<T>(T[] pendingArray) where T : MonoBehaviour
+		{
+			if (pendingArray == null) return;
+			foreach (MonoBehaviour t in pendingArray)
+			{
+				if (t == null) continue;
+				DeleteObject(t.gameObject);
+			}
+		}
 
 		public static void DeleteObject(GameObject p_object) {
 			if (Application.isPlaying)	GameObject.Destroy(p_object);
