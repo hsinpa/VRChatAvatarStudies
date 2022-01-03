@@ -50,9 +50,17 @@ namespace Hsinpa.Utility {
 		}
 
 		public static void DeleteObject(GameObject p_object) {
-			if (Application.isPlaying)	GameObject.Destroy(p_object);
-			if (Application.isEditor)	GameObject.DestroyImmediate(p_object);				
-        }
+			if (Application.isPlaying) {
+				GameObject.Destroy(p_object);
+				return;
+			}
+			if (Application.isEditor) {
+				GameObject.DestroyImmediate(p_object);
+				return;
+			}
+
+			GameObject.Destroy(p_object);
+		}
 
 
         /// <summary>

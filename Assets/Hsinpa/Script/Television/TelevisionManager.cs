@@ -22,6 +22,9 @@ namespace Hsinpa.TV
         [SerializeField]
         private Texture debugTexture;
 
+        [SerializeField]
+        private bool isFullScreenFlag;
+
         private Vector2 totalSize
         {
             get
@@ -35,10 +38,18 @@ namespace Hsinpa.TV
 
         private TelevisionView[] televisionViewArray;
 
+        private void Start()
+        {
+            Utility.UtilityFunc.ClearChildObject(this.transform);
+            GenerateTelevisionSet();
+        }
+
         public void GenerateTelevisionSet()
         {
             Utility.UtilityFunc.ClearChildObject(televisionViewArray);
+            //Utility.UtilityFunc.ClearChildObject(this.transform);
 
+            //Division Offset Config
             Vector2 _totalSize = totalSize;
             float xoffset = (televisionViewPrefab.size.x ) * 0.5f;
             float yoffset = (televisionViewPrefab.size.x ) * 0.5f;
@@ -47,7 +58,10 @@ namespace Hsinpa.TV
                                                 transform.position.z);
             Vector3 boundSize = televisionViewPrefab.size;
 
-            televisionViewArray = new TelevisionView[row * row];
+            televisionViewArray = new TelevisionView[row * column];
+
+            //UV Offset Config
+            Vector2 uvScale = new Vector2(1f / row, 1f / column);
 
             for (int x = 0; x < row; x++)
             {
@@ -57,14 +71,29 @@ namespace Hsinpa.TV
 
                     Vector3 spawnPosition = GetPositionByIndex(topLeftCorner, boundSize, x, y);
 
-                    TelevisionView tvView = CreateSingleTVView(spawnPosition, index);
+                    TelevisionView tvView = CreateSingleTVView(spawnPosition, uvScale, x, y);
+
+                    tvView.SetTexture(debugTexture);
                     televisionViewArray[index] = tvView;
                 }
             }
         }
 
-        private TelevisionView CreateSingleTVView(Vector3 position, int index) {
+        private TelevisionView CreateSingleTVView(Vector3 position, Vector2 uvScale, int x, int y) {
             TelevisionView generateTVView = GameObject.Instantiate<TelevisionView>(televisionViewPrefab, this.transform);
+            generateTVView.SetUp();
+
+            Vector2 uvOffset = new Vector2();
+            uvOffset.x = uvScale.x * x;
+            uvOffset.y = (uvScale.y * ((column -1) - y));
+
+            if (isFullScreenFlag)
+            {
+                generateTVView.SetUVOffset(Vector2.zero, Vector2.one);
+            }
+            else {
+                generateTVView.SetUVOffset(uvOffset, uvScale);
+            }
 
             generateTVView.transform.position = position;
 
@@ -90,6 +119,7 @@ namespace Hsinpa.TV
 
             return position;
         }
+
 
     }
 }

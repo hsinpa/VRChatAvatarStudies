@@ -6,6 +6,9 @@ namespace Hsinpa {
     {
         public class Shader {
             public const string MainTexture = "_MainTex";
+
+            public const string UVOffset = "_UVOffset";
+            public const string UVScale = "_UVScale";
         }
     }
 }
