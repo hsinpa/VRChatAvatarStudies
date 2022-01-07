@@ -52,8 +52,34 @@
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, (i.uv * _UVScale) + _UVOffset);
 
-                return col;
+                return col*2;
             }
+            ENDCG
+        }
+
+        Pass
+        {
+            Tags {"LightMode" = "Meta"}
+            
+            CGPROGRAM
+
+            #include "UnityStandardMeta.cginc"
+            #pragma vertex vert_meta
+            #pragma fragment frag_meta_custom
+
+            fixed4 frag_meta_custom(v2f_meta i) : SV_Target
+            {
+                // Colors                
+                fixed4 col = fixed4(2,0,0,1); // The emission color
+
+                // Calculate emission
+                UnityMetaInput metaIN;
+                UNITY_INITIALIZE_OUTPUT(UnityMetaInput, metaIN);
+                metaIN.Albedo = col.rgb;
+                metaIN.Emission = col.rgb;
+                return UnityMetaFragment(metaIN);
+            }
+
             ENDCG
         }
     }
