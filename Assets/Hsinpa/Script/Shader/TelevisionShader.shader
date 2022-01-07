@@ -20,6 +20,7 @@
             #pragma fragment frag
 
             #include "UnityCG.cginc"
+            #include "include/Filter_TVTube.cginc"
 
             struct appdata
             {
@@ -35,6 +36,8 @@
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
+            float4 _MainTex_TexelSize;
+
 
             float2 _UVOffset;
             float2 _UVScale;
@@ -47,10 +50,17 @@
                 return o;
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            fixed4 frag(v2f i) : SV_Target
             {
+                float2 ar_uv = i.uv;
+
+                float aspectRatio = _MainTex_TexelSize.z / _MainTex_TexelSize.w;
+                ar_uv.x *= aspectRatio;
+
                 // sample the texture
-                fixed4 col = tex2D(_MainTex, (i.uv * _UVScale) + _UVOffset);
+                fixed4 col = tex2D(_MainTex, (ar_uv * _UVScale) + _UVOffset);
+
+                return GetTVTubeFilter(_MainTex, i.uv, ar_uv, _MainTex_TexelSize);
 
                 return col*2;
             }
