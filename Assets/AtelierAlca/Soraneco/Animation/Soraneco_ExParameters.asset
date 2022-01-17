@@ -45,35 +45,15 @@ MonoBehaviour:
     valueType: 0
     saved: 1
     defaultValue: 0
-  - name: 
-    valueType: 0
+  - name: CrouchReplace
+    valueType: 1
     saved: 1
     defaultValue: 0
-  - name: 
-    valueType: 0
+  - name: StandReplace
+    valueType: 1
     saved: 1
     defaultValue: 0
-  - name: 
-    valueType: 0
-    saved: 1
-    defaultValue: 0
-  - name: 
-    valueType: 0
-    saved: 1
-    defaultValue: 0
-  - name: 
-    valueType: 0
-    saved: 1
-    defaultValue: 0
-  - name: 
-    valueType: 0
-    saved: 1
-    defaultValue: 0
-  - name: 
-    valueType: 0
-    saved: 1
-    defaultValue: 0
-  - name: 
-    valueType: 0
+  - name: ProneReplace
+    valueType: 1
     saved: 1
     defaultValue: 0

@@ -25,6 +25,8 @@ namespace Hsinpa.Mesh {
             var bones = skinMesh.bones;
             int boneCount = bones.Length;
 
+            Debug.Log("BoneCount " + boneCount);
+
             for (int i = 0; i < boneCount; i++) {
                 if (bones[i] == null) continue;
 

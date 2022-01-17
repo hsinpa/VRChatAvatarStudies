@@ -16,20 +16,40 @@
 	    return vignette;
 	}
 
-	float4 GetTVTubeFilter(sampler2D _MainTex, float2 uv, float2 ar_uv, float4 texel_size) {
-
-		float2 center_uv = uv - 0.5;
-		float2 center_ar_uv = ar_uv	 - 0.5;
+	float4 GetTVTubeFilter(fixed4 color, float2 uv, float2 ar_uv) {
+		float2 filter_uv = uv - 0.5;
+		float2 filter_ar_uv = ar_uv	 - 0.5;
 
 	    // measure distance from center
-	    float dd = dot(center_uv, center_uv);
-	    float dd2 = dot(center_ar_uv, center_ar_uv);
+	    float dd = dot(filter_uv, filter_uv);
+	    float dd2 = dot(filter_ar_uv, filter_ar_uv);
 
 	    // warp
-	    center_uv = (center_uv * dd) * 0.4 + center_uv * 0.6;
-	    center_ar_uv = (center_ar_uv * dd2) * 0.4 + center_ar_uv * 0.6;
+		filter_uv = (filter_uv * dd) * 0.4 + filter_uv * 0.6;
+		filter_ar_uv = (filter_ar_uv * dd2) * 0.4 + filter_ar_uv * 0.6;
 
-		return float4(1, 0, 0, 1);
+		float vignette = CalVignette(filter_ar_uv, dd2);
+
+		//Restore
+		filter_uv += 0.5;
+		filter_ar_uv += 0.5;
+
+		//Apply Vertical Scanliness
+		float v = abs(sin(filter_uv.x * 270.0 + _Time.w));
+			v += abs(sin(filter_uv.x * 380.0 + _Time.y * 1.1));
+			v += abs(sin(filter_uv.x * 300.0 + _Time.y * 1.8));
+			v = lerp(v, 0.5, 0.9) - 0.1;
+
+		if (v > 0.5) 
+		{
+			color = 1.0 - (1.0 - 2.0 * (v - 0.5)) * (1.0 - color);
+		}
+		else 
+		{
+			color = (2.0 * v) * color;
+		}
+
+		return color;
 	}
 
 #endif

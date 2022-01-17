@@ -96,7 +96,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emissive_Tex:
-        m_Texture: {fileID: 2800000, guid: 0d93206ff0925dd4a8a48d96803fe32c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 85426cf05784b9244a939b573e281168, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlossBlendMask:
@@ -120,7 +120,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5c6f784a5f9789e448a4f3f0caee1ba2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ffe3ed71fc62854da82498092cfad72, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCap_Sampler:

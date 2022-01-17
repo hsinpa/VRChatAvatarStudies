@@ -3,15 +3,16 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        
-
         _UVOffset("UV Offset", Vector) = (0,0,0,0)
         _UVScale("UV Scale", Vector) = (0,0,0,0)
     }
     SubShader
-    {
-        Tags { "RenderType"="Opaque" }
+    { 
+
+        Tags { "RenderType"="Opaque"}
         LOD 100
+
+        Cull Back
 
         Pass
         {
@@ -38,7 +39,6 @@
             float4 _MainTex_ST;
             float4 _MainTex_TexelSize;
 
-
             float2 _UVOffset;
             float2 _UVScale;
 
@@ -60,37 +60,42 @@
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, (ar_uv * _UVScale) + _UVOffset);
 
-                return GetTVTubeFilter(_MainTex, i.uv, ar_uv, _MainTex_TexelSize);
+                fixed4 tvtube_col = GetTVTubeFilter(col, i.uv, ar_uv);
 
-                return col*2;
+
+                //return GetTVTubeFilter(_MainTex, i.uv, ar_uv, _MainTex_TexelSize);
+
+                return tvtube_col;
             }
-            ENDCG
+                ENDCG
         }
 
-        Pass
-        {
-            Tags {"LightMode" = "Meta"}
-            
-            CGPROGRAM
+        //Pass
+        //{
+        //    Tags {"LightMode" = "Meta"}
 
-            #include "UnityStandardMeta.cginc"
-            #pragma vertex vert_meta
-            #pragma fragment frag_meta_custom
+        //    CGPROGRAM
 
-            fixed4 frag_meta_custom(v2f_meta i) : SV_Target
-            {
-                // Colors                
-                fixed4 col = fixed4(2,0,0,1); // The emission color
+        //    #include "UnityStandardMeta.cginc"
+        //    #pragma vertex vert_meta
+        //    #pragma fragment frag_meta_custom
 
-                // Calculate emission
-                UnityMetaInput metaIN;
-                UNITY_INITIALIZE_OUTPUT(UnityMetaInput, metaIN);
-                metaIN.Albedo = col.rgb;
-                metaIN.Emission = col.rgb;
-                return UnityMetaFragment(metaIN);
-            }
+        //    fixed4 frag_meta_custom(v2f_meta i) : SV_Target
+        //    {
+        //        fixed4 col = tex2D(_MainTex, i.uv) * 10.0;
 
-            ENDCG
-        }
+        //        // Colors                
+        //        //fixed4 col = fixed4(2,0,0,1); // The emission color
+
+        //        // Calculate emission
+        //        UnityMetaInput metaIN;
+        //        UNITY_INITIALIZE_OUTPUT(UnityMetaInput, metaIN);
+        //        metaIN.Albedo = col.rgb*0;
+        //        metaIN.Emission = col.rgb;
+        //        return UnityMetaFragment(metaIN);
+        //    }
+
+        //    ENDCG
+        //}
     }
 }
